@@ -1,5 +1,8 @@
 package dependencyInjection;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Tyre {
     private String brand;
 
@@ -8,9 +11,6 @@ public class Tyre {
         return brand;
     }
 
-    public Tyre(String brand) {
-        this.brand = brand;
-    }
 
     public void setBrand(String brand) {
         this.brand = brand;

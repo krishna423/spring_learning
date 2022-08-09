@@ -10,10 +10,10 @@
 
     <context:component-scan base-package="dependencyInjection"></context:component-scan>
 <!--    <bean id="vehicle" class="dependencyInjection.Bike"/>-->
-    <bean id="tyre" class="dependencyInjection.Tyre">
+<!--    <bean id="tyre" class="dependencyInjection.Tyre">-->
 <!--        <property name="brand" value="MRF"></property>-->
-        <constructor-arg value="MRF"></constructor-arg>
-    </bean>
+<!--        <constructor-arg value="MRF"></constructor-arg>-->
+<!--    </bean>-->
 
 
 <!--    <bean id="tyre1" class="dependencyInjection.Tyre" scope="prototype">-->
