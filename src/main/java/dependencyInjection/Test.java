@@ -16,10 +16,18 @@ public class Test {
 //        Vehicle vehicle1 = context.getBean("vehicle",Vehicle.class);
 //        vehicle1.drive();
 
-        //With dependency injection -component scan xml
+//        //With dependency injection -component scan xml
+//        ApplicationContext context1 = new ClassPathXmlApplicationContext("spring.xml");
+//        Vehicle vehicle2 = context1.getBean("bike",Vehicle.class);
+//        vehicle2.drive();
+
+        //With dependency injection - scan xml + property set
         ApplicationContext context1 = new ClassPathXmlApplicationContext("spring.xml");
+        Tyre t = context1.getBean("tyre",Tyre.class);
+        System.out.println(t);
         Vehicle vehicle2 = context1.getBean("bike",Vehicle.class);
         vehicle2.drive();
+
 
     }
 
