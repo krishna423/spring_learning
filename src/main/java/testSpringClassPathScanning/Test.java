@@ -11,8 +11,7 @@ import java.util.logging.Logger;
 public class Test {
 
     public static void main(String[] args) {
-          Logger logger = Logger.getLogger("asdsad");
-            logger.info("dsdsddss");
+
         ClassPathScanningCandidateComponentProvider provider =
                 new ClassPathScanningCandidateComponentProvider(true);
         //String basePackage = "LiteBeanTest";
