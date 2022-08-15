@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+<!--  For A package  -->
+
+<!--    <bean id="b" class="differenceComponentScanVSAnnotationConfig.B"/>-->
+<!--    <bean id="c" class="differenceComponentScanVSAnnotationConfig.C"/>-->
+<!--    <bean id="a" class="differenceComponentScanVSAnnotationConfig.A">-->
+<!--        <property name="b" ref="b"/>-->
+<!--        <property name="c" ref="c"/>-->
+<!--    </bean>-->
+
+
+
+<!--  For C package  -->
+<!--    <context:annotation-config />-->
+
+
+
+
+<!--  For D package  -->
+    <bean id="b" class="differenceComponentScanVSAnnotationConfig.B"/>
+    <bean id="c" class="differenceComponentScanVSAnnotationConfig.C"/>
+    <bean id="a" class="differenceComponentScanVSAnnotationConfig.A"/>
+    <context:annotation-config />
+
+
+<!--    <bean id="tyre1" class="dependencyInjection.Tyre" scope="prototype">-->
+<!--        <property name="brand" value="MRF"></property>-->
+<!--    </bean>-->
+
+<!--    <bean id="vehicle" class="dependencyInjection.Car">-->
+<!--        <property name="tyre" ref="tyre1">-->
+<!--        </property>-->
+<!--    </bean>-->
+
+
+</beans>
