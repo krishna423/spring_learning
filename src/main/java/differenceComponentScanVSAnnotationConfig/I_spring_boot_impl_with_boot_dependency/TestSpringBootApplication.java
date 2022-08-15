@@ -16,9 +16,14 @@ public class TestSpringBootApplication {
     public static void main(String[] args) {
 
         ApplicationContext context = SpringApplication.run(TestSpringBootApplication.class);
-        // Extra features
-        // profiling
-        // Auto configure for Log, Cache,JDBC,jpa,Kafka
+        //Why SpringApplication.run is used here
+        //in order to provide some extra features like :
+        // 1.profiling
+        // 2.Auto configure for Log, Cache,JDBC,jpa,Kafka
+        // 3. Spring boot listeners
+        // Schedular config
+        //MVC auto setup : no need to setup dispatcher servlet explicitly
+        //
 
         A a =  context.getBean("a",A.class);
         a.toStringCheck();
