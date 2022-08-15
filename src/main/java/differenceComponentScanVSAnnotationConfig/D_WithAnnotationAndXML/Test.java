@@ -1,6 +1,5 @@
 package differenceComponentScanVSAnnotationConfig.D_WithAnnotationAndXML;
 
-import differenceComponentScanVSAnnotationConfig.A;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 

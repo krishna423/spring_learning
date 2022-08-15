@@ -1,5 +1,8 @@
 package differenceComponentScanVSAnnotationConfig.C_WithAnnotation;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class B {
 
     public B(){

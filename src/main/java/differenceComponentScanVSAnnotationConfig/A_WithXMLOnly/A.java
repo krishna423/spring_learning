@@ -1,8 +1,5 @@
 package differenceComponentScanVSAnnotationConfig.A_WithXMLOnly;
 
-import differenceComponentScanVSAnnotationConfig.B;
-import differenceComponentScanVSAnnotationConfig.C;
-
 public class A {
 
     private B b;

@@ -1,4 +1,4 @@
-package differenceComponentScanVSAnnotationConfig;
+package differenceComponentScanVSAnnotationConfig.E_XML_ComponentScan;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;

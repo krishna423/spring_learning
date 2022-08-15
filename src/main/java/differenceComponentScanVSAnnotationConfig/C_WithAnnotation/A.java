@@ -1,11 +1,14 @@
 package differenceComponentScanVSAnnotationConfig.C_WithAnnotation;
 
-import differenceComponentScanVSAnnotationConfig.B;
-import differenceComponentScanVSAnnotationConfig.C;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
+@Component
 public class A {
 
+    @Autowired
     private B b;
+    @Autowired
     private C c;
 
     public A(){

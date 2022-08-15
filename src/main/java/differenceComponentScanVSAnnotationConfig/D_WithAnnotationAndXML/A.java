@@ -1,11 +1,13 @@
 package differenceComponentScanVSAnnotationConfig.D_WithAnnotationAndXML;
 
-import differenceComponentScanVSAnnotationConfig.B;
-import differenceComponentScanVSAnnotationConfig.C;
+
+import org.springframework.beans.factory.annotation.Autowired;
 
 public class A {
 
+    @Autowired
     private B b;
+    @Autowired
     private C c;
 
     public A(){

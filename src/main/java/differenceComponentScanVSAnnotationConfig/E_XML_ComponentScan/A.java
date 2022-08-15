@@ -1,4 +1,4 @@
-package differenceComponentScanVSAnnotationConfig;
+package differenceComponentScanVSAnnotationConfig.E_XML_ComponentScan;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;

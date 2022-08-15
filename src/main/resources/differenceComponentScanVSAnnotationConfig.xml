@@ -8,9 +8,9 @@
 
 <!--  For A package  -->
 
-<!--    <bean id="b" class="differenceComponentScanVSAnnotationConfig.B"/>-->
-<!--    <bean id="c" class="differenceComponentScanVSAnnotationConfig.C"/>-->
-<!--    <bean id="a" class="differenceComponentScanVSAnnotationConfig.A">-->
+<!--    <bean id="b" class="differenceComponentScanVSAnnotationConfig.A_WithXMLOnly.B"/>-->
+<!--    <bean id="c" class="differenceComponentScanVSAnnotationConfig.A_WithXMLOnly.C"/>-->
+<!--    <bean id="a" class="differenceComponentScanVSAnnotationConfig.A_WithXMLOnly.A">-->
 <!--        <property name="b" ref="b"/>-->
 <!--        <property name="c" ref="c"/>-->
 <!--    </bean>-->
@@ -24,10 +24,16 @@
 
 
 <!--  For D package  -->
-    <bean id="b" class="differenceComponentScanVSAnnotationConfig.B"/>
-    <bean id="c" class="differenceComponentScanVSAnnotationConfig.C"/>
-    <bean id="a" class="differenceComponentScanVSAnnotationConfig.A"/>
-    <context:annotation-config />
+<!--    <bean id="b" class="differenceComponentScanVSAnnotationConfig.D_WithAnnotationAndXML.B"/>-->
+<!--    <bean id="c" class="differenceComponentScanVSAnnotationConfig.D_WithAnnotationAndXML.C"/>-->
+<!--    <bean id="a" class="differenceComponentScanVSAnnotationConfig.D_WithAnnotationAndXML.A"/>-->
+<!--    <context:annotation-config />-->
+
+
+
+
+<!--  For E package  -->
+    <context:component-scan base-package="differenceComponentScanVSAnnotationConfig.E_XML_ComponentScan" />
 
 
 <!--    <bean id="tyre1" class="dependencyInjection.Tyre" scope="prototype">-->
