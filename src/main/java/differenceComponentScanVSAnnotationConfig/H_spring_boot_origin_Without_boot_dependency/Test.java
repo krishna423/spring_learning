@@ -1,6 +1,6 @@
-package differenceComponentScanVSAnnotationConfig.H_spring_boot_origin;
+package differenceComponentScanVSAnnotationConfig.H_spring_boot_origin_Without_boot_dependency;
 
-import differenceComponentScanVSAnnotationConfig.H_spring_boot_origin.innerPackage.A;
+import differenceComponentScanVSAnnotationConfig.H_spring_boot_origin_Without_boot_dependency.innerPackage.A;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
