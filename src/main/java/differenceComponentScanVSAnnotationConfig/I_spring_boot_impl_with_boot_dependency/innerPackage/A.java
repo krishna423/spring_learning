@@ -1,4 +1,4 @@
-package differenceComponentScanVSAnnotationConfig.H_spring_boot_origin.innerPackage;
+package differenceComponentScanVSAnnotationConfig.I_spring_boot_impl_with_boot_dependency.innerPackage;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
