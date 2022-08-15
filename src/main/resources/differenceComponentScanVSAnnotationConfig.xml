@@ -33,7 +33,7 @@
 
 
 <!--  For E package  -->
-    <context:component-scan base-package="differenceComponentScanVSAnnotationConfig.E_XML_ComponentScan" />
+<!--    <context:component-scan base-package="differenceComponentScanVSAnnotationConfig.E_XML_ComponentScan" />-->
 
 
 <!--    <bean id="tyre1" class="dependencyInjection.Tyre" scope="prototype">-->
