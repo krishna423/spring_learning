@@ -13,5 +13,8 @@ public class Test {
         A a= applicationContext.getBean("a", A.class);
         a.toStringCheck();
 
+        //Error response should be : No bean named 'a' available
+        // As componentScan is missing in (either componentScan should be in xml or used as a annotation)
+
     }
 }
