@@ -8,19 +8,19 @@
 
     <!-- bean definitions here -->
 
-    <context:component-scan base-package="dependencyInjection"></context:component-scan>
-<!--    <bean id="vehicle" class="dependencyInjection.Bike"/>-->
-<!--    <bean id="tyre" class="dependencyInjection.Tyre">-->
+    <context:component-scan base-package="spring.dependencyInjection"></context:component-scan>
+<!--    <bean id="vehicle" class="spring.dependencyInjection.Bike"/>-->
+<!--    <bean id="tyre" class="spring.dependencyInjection.Tyre">-->
 <!--        <property name="brand" value="MRF"></property>-->
 <!--        <constructor-arg value="MRF"></constructor-arg>-->
 <!--    </bean>-->
 
 
-<!--    <bean id="tyre1" class="dependencyInjection.Tyre" scope="prototype">-->
+<!--    <bean id="tyre1" class="spring.dependencyInjection.Tyre" scope="prototype">-->
 <!--        <property name="brand" value="MRF"></property>-->
 <!--    </bean>-->
 
-<!--    <bean id="vehicle" class="dependencyInjection.Car">-->
+<!--    <bean id="vehicle" class="spring.dependencyInjection.Car">-->
 <!--        <property name="tyre" ref="tyre1">-->
 <!--        </property>-->
 <!--    </bean>-->
