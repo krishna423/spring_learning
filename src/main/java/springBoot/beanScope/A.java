@@ -8,7 +8,17 @@ import org.springframework.stereotype.Component;
 @Scope(value = ConfigurableBeanFactory.SCOPE_PROTOTYPE)
 public class A {
 
+    private int x;
+
     public A(){
         System.out.println("creating A");
+    }
+
+    public void setX(int x) {
+        this.x = x;
+    }
+
+    public int getX() {
+        return x;
     }
 }
