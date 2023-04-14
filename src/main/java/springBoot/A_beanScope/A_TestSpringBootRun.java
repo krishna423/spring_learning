@@ -1,14 +1,14 @@
-package springBoot.beanScope;
+package springBoot.A_beanScope;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 
 @SpringBootApplication
-public class TestSpringBootRun {
+public class A_TestSpringBootRun {
 
     public static void main(String[] args) {
-        ApplicationContext context = SpringApplication.run(TestSpringBootRun.class);
+        ApplicationContext context = SpringApplication.run(A_TestSpringBootRun.class);
         A a = context.getBean(A.class);
         a.setX(10);
         A a1 = context.getBean(A.class);

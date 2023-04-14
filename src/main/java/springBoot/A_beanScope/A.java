@@ -1,17 +1,18 @@
-package springBoot.beanScope;
+package springBoot.A_beanScope;
 
 import org.springframework.beans.factory.config.ConfigurableBeanFactory;
+import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
-@Component(ConfigurableBeanFactory.SCOPE_SINGLETON)
-public class B {
+@Component
+@Scope(value = ConfigurableBeanFactory.SCOPE_PROTOTYPE)
+public class A {
 
     private int x;
 
-    public B() {
-        System.out.println("creating B");
+    public A(){
+        System.out.println("creating A");
     }
-
 
     public void setX(int x) {
         this.x = x;
@@ -19,6 +20,5 @@ public class B {
 
     public int getX() {
         return x;
-
     }
 }
